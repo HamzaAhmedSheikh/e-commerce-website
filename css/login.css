@@ -1,0 +1,117 @@
+.navbar {
+    background-color: #EF6C00;     
+}
+
+.nav-link {
+   color: #fff !important;
+   font-weight: bold;
+}
+
+.fa-shopping-cart, .fa-user-circle {
+   font-size: 26px;
+}
+
+.logo {
+   height: 60px;
+}
+
+      .card {
+          border-radius: 20px;
+          box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+          position: relative;
+          bottom: 0px;
+          padding: 0 5px;
+      }
+
+      .lead {
+          font-size: 30px;        
+      }
+
+      input[type="email"],
+      input[type="password"] {
+          border-radius: 50px;
+          padding: 25px;
+      }
+
+      .btn {
+         border-radius: 50px;
+         padding: 10px 0;
+         color: #fff;           
+      }
+
+      .google {
+          background-color: #CC3333;
+          transition: all 0.3s ease 0s;
+          
+      }
+
+      .facebook {
+          background-color: #3b5998;
+          transition: all 0.3s ease 0s;
+          
+      }
+
+      .google:hover, .facebook:hover {
+          color: #fff;
+      }
+
+
+      /*----------Footer------------*/
+
+.footer{
+   margin-top: 50px;
+   background: #000;
+   color: #fff;
+}   
+
+.footer .footerHeading {
+   font-size: 18px;
+   margin: 25px 0;
+   width: 100%;
+}
+
+.footer p{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.copyright{
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.footer hr{
+    margin-top: 10px;
+    background-color: #ccc;
+}
+
+.footer-image img{
+    height: 70px;
+    margin-bottom: 25px;   
+}
+
+.footer .row .fab{
+    padding: 12px;
+    font-size: 16px;  
+    cursor: pointer;      
+}
+
+.pointer {
+   cursor: pointer;
+}
+
+.copy {
+   font-size: 18px;
+   margin-top: -8px;
+   font-weight: bold;  
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .footer-image img{
+        height: 50px;
+        margin-bottom: 25px;   
+    }
+}

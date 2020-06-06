@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #EF6C00; 
+    position: sticky;
+}
+
+.nav-link {
+   color: #fff !important;
+   font-weight: bold;
+}
+
+.fa-shopping-cart, .fa-user-circle {
+   font-size: 26px;
+}
+
+.fa-shipping-fast, .fa-headset, .fa-thumbs-up {
+   font-size: 50px !important;
+   margin-right: 12px;
+   color: #EF6C00;
+}
+
+
+.logo {
+    height: 60px;
+}
+
+.heads {
+    background: url(../images/contact_us.jpg) no-repeat;
+    background-size: 115% 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+
+/*----------Footer------------*/
+
+.footer{
+    margin-top: 50px;
+    background: #000;
+    color: #fff;
+}   
+
+.footer .footerHeading {
+    font-size: 18px;
+    margin: 25px 0;
+    width: 100%;
+}
+
+.footer p{
+     font-size: 14px;
+     cursor: pointer;
+}
+
+.copyright{
+     margin-bottom: -80px;
+     text-align: center;
+     font-size: 15px;
+     padding-bottom: 20px;
+}
+
+.footer hr{
+     margin-top: 10px;
+     background-color: #ccc;
+}
+
+.footer-image img{
+    height: 70px;
+    margin-bottom: 25px;   
+}
+
+.footer .row .fab{
+     padding: 12px;
+     font-size: 16px;  
+     cursor: pointer;      
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.copy {
+    font-size: 18px;
+    margin-top: -8px;
+    font-weight: bold;  
+}
+
+@media screen and (max-width: 568px) {
+    .footer-image img{
+        height: 50px;
+        margin-bottom: 20px;
+       
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .footer-image img{
+        height: 50px;
+        margin-bottom: 25px;   
+    }
+}

@@ -96,6 +96,14 @@ h3 {
    color: #EF6C00
 }
 
+/*----------Contact Us------------*/
+
+.heads {
+   background: url(../images/contact_us.jpg) no-repeat;
+   background-size: 115% 100%;
+   width: 100%;
+   margin-top: 50px;
+}
 
 /*----------Footer------------*/
 

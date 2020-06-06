@@ -1,0 +1,144 @@
+.navbar {
+    background-color: #EF6C00; 
+}
+
+.nav-link {
+   color: #fff !important;
+   font-weight: bold;
+}
+
+.fa-shopping-cart, .fa-user-circle {
+   font-size: 26px;
+}
+
+.title-box{
+    background: orange;
+    color: #fff;
+    width: 222px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;    
+    border-radius: 50px;
+    display: flex;
+    
+}    
+
+.title-box h2{
+     font-size: 18px;
+     text-align: center;
+     margin-top: 4px;
+     font-weight: bold;
+     padding-left: 8px;    
+      
+}
+
+.card-title {
+    font-size: 20px;
+    color: #EF6C00; 
+}
+
+.Casual {
+    margin: 25px;
+}
+
+.Formal {
+    margin: 25px;
+}
+
+.t-shirts {
+    margin: 25px;
+}
+
+.casualShirts {
+    margin: 25px;
+}
+
+.formalShirts {
+    margin: 25px;
+}
+
+.v-neck {
+    margin: 25px;
+}
+
+.btn-darks {
+    background-color: #EF6C00;    
+    width: 100%;    
+}
+
+.btn-darks:hover {
+    color: white;    
+}
+
+.click {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.logo {
+    height: 60px;
+}
+
+/*----------Footer------------*/
+
+.footer{
+    margin-top: 50px;
+    background: #000;
+    color: #fff;
+}   
+
+.footer h1{
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+.footer p{
+     font-size: 14px;
+     cursor: pointer;
+}
+
+.copyright{
+     margin-bottom: -80px;
+     text-align: center;
+     font-size: 15px;
+     padding-bottom: 20px;
+}
+
+.fa-heart-o{
+    color: red;
+    font-size: 15px;
+}
+
+.footer hr{
+     margin-top: 10px;
+     background-color: #ccc;
+}
+
+.footer-image img{
+    height: 70px;
+    margin-bottom: 25px;
+}
+
+.footer .row .fa{
+     padding: 12px;
+     font-size: 16px;  
+     cursor: pointer;      
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.copy {
+    font-size: 18px;
+    margin-top: -8px;
+    font-weight: bold;  
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .footer-image img{
+        height: 50px;
+        margin-bottom: 25px;   
+    }  
+}

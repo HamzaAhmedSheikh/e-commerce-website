@@ -1,0 +1,175 @@
+.navbar {
+      background-color: #EF6C00; 
+  }
+  
+  .nav-link {
+     color: #fff !important;
+     font-weight: bold;
+  }
+  
+  .fa-shopping-cart, .fa-user-circle {
+     font-size: 26px;
+}  
+
+.title-box{
+      background: orange;
+      color: #fff;
+      width: 180px;
+      padding: 4px 10px;
+      height: 40px;
+      margin-bottom: 30px;
+      display: flex;
+      border-radius: 50px;      
+ }    
+ 
+ .title-box h2{
+       text-align: center;
+       font-size: 24px;
+       margin-left: 34px;
+ }
+
+.btn-darks {
+      background-color: #EF6C00;    
+      width: 100%;    
+}
+  
+.btn-darks:hover {
+      color: white;    
+}
+  
+.click {
+      color: whitesmoke;
+      text-decoration: none;
+  } 
+
+.logo {
+      height: 60px;
+}
+  
+.footer-image img{
+      height: 95px;     
+}
+  
+  
+
+               /*------------Single Product------------*/
+
+.single-products{
+      margin-top: 70px;
+}  
+          
+.new-arrival{
+      background: green;
+      width: 50px;
+      color: #fff;
+      font-size: 12px;
+      font-weight: bold;
+      margin-top: 20px;
+}
+          
+.col-md-7 h2{
+      color: #555;
+}
+          
+.single-products .fa{
+      color: orange;
+}
+          
+.single-products .price{
+      color: orange;
+      font-size: 26px;
+      font-weight: bold;
+      padding-top: 20px;
+}
+          
+.single-products input{
+      border: 1px solid #ccc;
+      font-weight: bold;
+      height: 33px;
+      text-align: center;
+      width: 30px;
+} 
+          
+.single-products .btn-primary{
+      background: orange !important;
+      color: #fff;
+      font-size: 15px;
+      margin-left: 20px;
+      border: none;
+      box-shadow: none !important;
+}
+                      
+                                  /*----------product-description------------*/
+           
+.product-description h6{
+      margin-top: 50px;
+      color: orange;
+}
+          
+.product-description p{
+      margin-top: 30px;
+}
+          
+.product-description hr{
+      margin-bottom: 50px; }
+          
+
+      /*----------Footer------------*/
+
+.footer{
+      margin-top: 50px;
+      background: #000;
+      color: #fff;
+}   
+  
+.footer h1{
+      font-size: 18px;
+      margin: 25px 0;
+}
+  
+.footer p{
+      font-size: 14px;
+      cursor: pointer;
+}
+  
+.copyright{
+      margin-bottom: -80px;
+      text-align: center;
+      font-size: 15px;
+      padding-bottom: 20px;
+}
+  
+.footer hr{
+      margin-top: 10px;
+      background-color: #ccc;
+}
+  
+.footer-image img{
+      height: 70px;
+      margin-bottom: 25px;     
+}
+  
+.footer .row .fa{
+      padding: 12px;
+      font-size: 16px;  
+      cursor: pointer;      
+}
+  
+.pointer {
+      cursor: pointer;
+}
+  
+.copy {
+      font-size: 18px;
+      margin-top: -8px;
+      font-weight: bold;  
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+      .footer-image img{
+          height: 50px;
+          margin-bottom: 25px;   
+      }
+  }
+
+
